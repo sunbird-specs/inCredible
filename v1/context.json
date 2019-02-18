@@ -2,7 +2,7 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-    "ocd": "https://skillcredentialspec.org/skillcreds/v1#",
+    "ocd": "https://skillcredentialspec.org/v1#",
     "ob": "https://w3id.org/openbadges/v2#",
     "schema": "http://schema.org/",
     "sec": "https://w3id.org/security/v1#",
@@ -53,10 +53,10 @@
     "endDate": { "@id": "schema:endDate" },
     "equivalent": { "@id": "ocd:equivalent" },
     "identity": { "@id": "ob:identity" },
-    "image": { "@id": "schema:image" },
+    "image": { "@id": "ob:image"},
     "maxValue": { "@id": "ocd:maxValue" },
     "minValue": { "@id": "ocd:minValue" },
-    "name": { "@id": "schema:name" },
+    "name": { "@id": "ob:name" },
     "narrative": { "@id": "ob:narrative" },
     "nonce": { "@id": "sec:nonce" },
     "owner": { "@id": "sec:owner" },
@@ -87,7 +87,6 @@
     "value": { "@id": "ocd:value" },
     "verification": { "@id": "ob:verification" },
 
-
     "grade": { "@id": "ocd:GradeAssessment" },
     "marks": { "@id": "ocd:MarksAssessment" },
     "percentage": { "@id": "ocd:PercentageAssessment" },
@@ -96,21 +95,21 @@
   },
   "ob:validation": [{
     "ob:validatesType": "ocd:AssessedEvidence",
-    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/AssessedEvidence.json"
+    "ob:validationSchema": "https://skillcredentialspec.org/v1/schema/AssessedEvidence.json"
   }, {
     "ob:validatesType": "ocd:Assessment",
-    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/Assessment.json"
+    "ob:validationSchema": "https://skillcredentialspec.org/v1/schema/Assessment.json"
   }, {
     "ob:validatesType": "ocd:CertificateExtension",
-    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/CertificateExtension.json"
+    "ob:validationSchema": "https://skillcredentialspec.org/v1/schema/CertificateExtension.json"
   }, {
     "ob:validatesType": "ocd:CompositeIdentity",
-    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/CompositeIdentity.json"
+    "ob:validationSchema": "https://skillcredentialspec.org/v1/schema/CompositeIdentity.json"
   }, {
     "ob:validatesType": "ocd:SignatoryExtension",
-    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/SignatoryExtension.json"
+    "ob:validationSchema": "https://skillcredentialspec.org/v1/schema/SignatoryExtension.json"
   }, {
     "ob:validatesType": "ocd:TrainingEvidence",
-    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/TrainingEvidence.json"
+    "ob:validationSchema": "https://skillcredentialspec.org/v1/schema/TrainingEvidence.json"
   }]
 }
