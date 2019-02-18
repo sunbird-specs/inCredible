@@ -2,7 +2,7 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-    "ocd": "https://skillcredentialspec.org/v1#",
+    "ocd": "https://skillcredentialspec.org/v1/",
     "ob": "https://w3id.org/openbadges/v2#",
     "schema": "http://schema.org/",
     "sec": "https://w3id.org/security/v1#",
@@ -32,7 +32,7 @@
     "SignatoryExtension": "ocd:SignatoryExtension",
     "TrainingEvidence": "ocd:TrainingEvidence",
 
-    "alignment": { "@id": "schmea:alignment" },
+    "alignment": { "@id": "schema:alignment" },
     "annotation": { "@id": "ocd:annotation" },
     "assessment": { "@id": "ocd:assessment", "@type": "ocd:Assessment" },
     "assessedBy": { "@id": "ocd:assessedBy", "@type": "@id" },
@@ -79,7 +79,7 @@
     "targetDescription": { "@id": "schema:targetDescription" },
     "targetFramework": { "@id": "schema:targetFramework" },
     "targetName": { "@id": "schema:targetName" },
-    "targetURL": { "@id": "schema:targetURL" },
+    "targetUrl": { "@id": "schema:targetUrl" },
     "training": { "@id": "ocd:training", "@type": "ocd:TrainingExtension" },
     "trainer": { "@id": "ocd:trainer", "@type": "ob:Profile" },
     "url": { "@id": "schema:url" },
