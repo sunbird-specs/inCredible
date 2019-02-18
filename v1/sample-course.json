@@ -1,5 +1,5 @@
 {
-  "@context": "https://skillcredentialspec.org/skillcreds/v1#",
+  "@context": "https://bharatskills.github.io/skillcreds-spec/v1/context.json#",
   "@id": "urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589",
   "@type": ["Credential", "Extension", "CertificateExtension"],
   "recipient": {
@@ -23,19 +23,19 @@
     },
     "alignment": [{
       "targetName": "Automotive Service Technician - Level 3",
-      "targetURL": "https://www.nqr.gov.in/ASC/Q1401",
+      "targetUrl": "https://www.nqr.gov.in/ASC/Q1401",
       "targetDescription": " ... ",
       "targetFramework": "NSQF",
       "targetCode": "ASC/Q1401"
     }, {
       "targetName": " Assist in vehicle service and maintenance",
-      "targetURL": "https://www.nqr.gov.in/ASC/N1401",
+      "targetUrl": "https://www.nqr.gov.in/ASC/N1401",
       "targetDescription": " ... ",
       "targetFramework": "NOS",
       "targetCode": "ASC/N1401"
     }, {
       "targetName": "Plan and organise work to meet expected outcomes",
-      "targetURL": "https://www.nqr.gov.in/ASC/N0001",
+      "targetUrl": "https://www.nqr.gov.in/ASC/N0001",
       "targetDescription": " ... ",
       "targetFramework": "NOS",
       "targetCode": "ASC/N0001"
