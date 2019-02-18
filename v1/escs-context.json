@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "ocd": "http://msde.gov.in/dgt/cred/opencreds/v1#",
+    "ob": "https://w3id.org/openbadges/v2#",
+    "schema": "http://schema.org/",
+    "sec": "https://w3id.org/security/v1#",
+    "wid": "https://w3id.org/identity/v1",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "AlignmentObject": "schema:AlignmentObject",
+    "AnnotatedExtension": "ocd:AnnotatedExtension",
+    "AssessedEvidence": "ocd:AssessedEvidence",
+    "Assessment": "ocd:Assessment",
+    "AwardingBody": "ob:Issuer",
+    "CertificateExtension": "ocd:CertificateExtension",
+    "CompositeIdentity": "ocd:CompositeIdentity",
+    "Credential": "ob:Assertion",
+    "Duration": "ocd:Duration",
+    "IdentityComponent": "ocd:IdentityComponent",
+    "LinkedDataSignature2015": "sec:LinkedDataSignature2015",
+    "RsaSignature2018": "wid:RsaSignature2018",
+    "SignatoryExtension": "ocd:SignatoryExtension",
+    "TrainingEvidence": "ocd:TrainingEvidence",
+
+    "annotation": { "@id": "ocd:annotation" },
+    "assessment": { "@id": "ocd:assessment", "@type": "ocd:Assessment" },
+    "assessedBy": { "@id": "ocd:assessedBy", "@type": "@id" },
+    "assessedOn": { "@id": "ocd:assessedOn", "@type": "xsd:dateTime" },
+    "awardedBy": { "@id": "ob:issuer" },
+    "awardedOn": { "@id": "ob:issuedOn" },
+    "awardedThrough": { "@id": "schema:issuedThrough" },
+    "components": { "@id": "ocd:components", "@type": "ocd:IdentityComponent" },
+    "composite": { "@id": "ocd:composite" },
+    "designation": { "@id": "ocd:designation" },
+    "duration": { "@id": "ocd:duration", "@type": "ocd:Duration" },
+    "endDate": { "@id": "schema:endDate" },
+    "equivalent": { "@id": "ocd:equivalent" },
+    "grade": { "@id": "ocd:GradeAssessment" },
+    "marks": { "@id": "ocd:MarksAssessment" },
+    "maxValue": { "@id": "ocd:maxValue" },
+    "minValue": { "@id": "ocd:minValue" },
+    "passValue": { "@id": "ocd:passValue" },
+    "percentage": { "@id": "ocd:PercentageAssessment" },
+    "percentile": { "@id": "ocd:PercentileAssessment" },
+    "photo": { "@id": "ocd:photo", "@type": "schema:url" },
+    "printUri": { "@id": "ocd:printUri", "@type": "schema:url" },
+    "publicKey": { "@id": "sec:publicKey" },
+    "rank": { "@id": "ocd:RankAssessment" },
+    "recipient": { "@id": "ob:recipient", "@type": "ocd:CompositeIdentity" },
+    "session": { "@id": "ocd:session" },
+    "signatory": { "@id": "ocd:signatory", "@type": "ocd:SignatoryExtension" },
+    "signature": { "@id": "sec:signature" },
+    "signatureValue": { "@id": "sec:SignatureValue" },
+    "startDate": { "@id": "schema:startDate" },
+    "subject": { "@id": "ocd:subject", "@type": "ocd:CompositeIdentity" },
+    "tag": { "@id": "ocd:tag" },
+    "training": { "@id": "ocd:training", "@type": "ocd:TrainingExtension" },
+    "trainer": { "@id": "ocd:trainer", "@type": "ob:Profile" },
+    "url": { "@id": "schema:url" },
+    "validFrom": { "@id": "schema:validFrom" },
+    "value": { "@id": "ocd:value" }
+  },
+  "ob:validation": [{
+    "ob:validatesType": "ocd:AssessedEvidence",
+    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/AssessedEvidence.json"
+  }, {
+    "ob:validatesType": "ocd:Assessment",
+    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/Assessment.json"
+  }, {
+    "ob:validatesType": "ocd:CertificateExtension",
+    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/CertificateExtension.json"
+  }, {
+    "ob:validatesType": "ocd:CompositeIdentity",
+    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/CompositeIdentity.json"
+  }, {
+    "ob:validatesType": "ocd:SignatoryExtension",
+    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/SignatoryExtension.json"
+  }, {
+    "ob:validatesType": "ocd:TrainingEvidence",
+    "ob:validationSchema": "https://std.ncvet.gov.in/cred/opencreds/schema/TrainingEvidence.json"
+  }]
+}

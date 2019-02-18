@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "ocd": "https://msde.gov.in/dgt/opencreds/v1#",
+    "ob": "https://w3id.org/openbadges/v2#"
+  },
+  "@id": "https://www.example.com/certs/2018/9900001234.json",
+  "@type": ["ocd:Credential", "ob:Extension", "ocd:CertificateExtension"],
+  "ob:recipient": {
+    "@type": "ob:email",
+    "ob:hashed": "true",
+    "ob:identity": "sha256$bdeffdadbd28657adcead3825fdb23875dab8e928ad8d68f6",
+    "ob:salt": "bluewater",
+    "ob:name": "Example Recipient Name"
+  },
+  "ob:badge": {
+    "@id": "urn:uuid:ec58b28e-a6ab-49c2-a24d-ebefa02476cd",
+    "@type": "BadgeClass",
+    "schema:name": "Certificate of Participation",
+    "schema:description": "Content Marketing Course",
+    "ocd:awardedBy": {
+      "@id": "tag:example.com,2009-11-28:#company.json",
+      "@type": "ocd:AwardingBody",
+      "schema:name": "Example Training Corp",
+      "schema:image": "https://www.example.com/images/logo.png",
+      "schema:email": "certificates@example.com"
+    }
+  },
+  "ocd:awardedOn": "2018-08-11T09:27:30.613UTC",
+  "ob:narrative": "Issued for participating in Content Marketing Course in association with Partner Marketing Solutions",
+  "ob:verification": {
+    "@type": "ocd:LinkedDataSignatures"
+  },
+  "ocd:signatory": [{
+    "@type": ["ocd:CompositeIdentity", "ob:Extension", "ocd:SignatoryExtension"],
+    "schema:name": "Example Signatory Name",
+    "ocd:designation": "CEO, Example Training Corp",
+    "ocd:components": [{
+      "@type": ["ocd:IdentityComponent", "schema:name"],
+      "ocd:annotation": "FATHER",
+      "ob:identity": "Example Father Name"
+    }, {
+      "@type": ["ocd:IdentityComponent", "ocd:photo"],
+      "ob:identity": "data:image/jpeg;base64,<base64 jpg image>"
+    }],
+    "schmea:image": "https://example.com/p/ceo/sign-image.jpg"
+  }, {
+    "@type": ["IdentityObject", "ocd:urn", "ob:Extension", "ocd:SignatoryExtension"],
+    "schema:name": "<Name of signatory>",
+    "ocd:designation": "Director, Partner Marketing Solutions",
+    "ob:identity": "urn:in.gov.eci.voter:<Voter #>",
+    "schema:image": "https://example2.com/edb/l:dir/mkt/sign-image.jpg"
+  }]
+}

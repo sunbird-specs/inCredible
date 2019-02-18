@@ -1,0 +1,106 @@
+<https://example.assessor.org/keys/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#CryptographicKey> .
+<https://example.assessor.org/keys/1> <sec:owner> "https://example.assessor.org/profile.json" .
+<https://example.assessor.org/keys/1> <sec:publicKeyPem> "-----BEGIN PUBLIC KEY-----\n... ... ... ... ...\n-----END PUBLIC KEY-----\n" .
+<https://example.assessor.org/profile.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#SignatoryExtension> .
+<https://example.assessor.org/profile.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+<https://example.assessor.org/profile.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Profile> .
+<https://example.assessor.org/profile.json> <https://msde.gov.in/dgt/opencreds/v1#publicKey> <https://example.assessor.org/keys/1> .
+<https://example.assessor.org/profile.json> <schema:image> "https://example.assessor.org/cert-logo.png" .
+<https://example.assessor.org/profile.json> <schema:name> "Acme Automotive Assessments Institute" .
+<https://example.pasdc.org/certs/courses/ASCL3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#BadgeClass> .
+<https://example.pasdc.org/certs/courses/ASCL3> <https://msde.gov.in/dgt/opencreds/v1#awardedBy> <https://example.pasdc.org/opencreds/profile.json> .
+<https://example.pasdc.org/certs/courses/ASCL3> <https://w3id.org/openbadges/v2#criteria> _:c14n2 .
+<https://example.pasdc.org/certs/courses/ASCL3> <schema:alignment> _:c14n0 .
+<https://example.pasdc.org/certs/courses/ASCL3> <schema:alignment> _:c14n5 .
+<https://example.pasdc.org/certs/courses/ASCL3> <schema:alignment> _:c14n9 .
+<https://example.pasdc.org/certs/courses/ASCL3> <schema:description> " ... " .
+<https://example.pasdc.org/certs/courses/ASCL3> <schema:image> "data:image/png;base64,<base64-encoded-png-data>" .
+<https://example.pasdc.org/certs/courses/ASCL3> <schema:name> "Automotive Service Technician Course" .
+<https://example.pasdc.org/opencreds/profile.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#AwardingBody> .
+<https://example.pasdc.org/opencreds/profile.json> <schema:image> "https://example.pasdc.org/images/logo.png" .
+<https://example.pasdc.org/opencreds/profile.json> <schema:name> "Partner & Associate Skills Development Corporation" .
+<https://trainer.example.edu/about.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Profile> .
+<https://trainer.example.edu/about.json> <schema:image> "https://trainer.example.edu/logo.jpg" .
+<https://trainer.example.edu/about.json> <schema:name> "Partner Training Institute" .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#AssessedEvidence> .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#Extension> .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Evidence> .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <https://msde.gov.in/dgt/opencreds/v1#assessedBy> <https://example.assessor.org/profile.json> .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <https://msde.gov.in/dgt/opencreds/v1#assessedOn> "2018-10-19T6:30:00Z" .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <https://msde.gov.in/dgt/opencreds/v1#assessment> _:c14n3 .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <https://msde.gov.in/dgt/opencreds/v1#signature> _:c14n1 .
+<urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> <schema:name> "Course Grade" .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#CertificateExtension> .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#Credential> .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://msde.gov.in/dgt/opencreds/v1#awardedOn> "2018-10-29T10:21:43.087UTC" .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://msde.gov.in/dgt/opencreds/v1#printUri> "data:image/jpeg;base64,<jpg-data>" .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://msde.gov.in/dgt/opencreds/v1#signatory> _:c14n6 .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://w3id.org/openbadges/v2#badge> <https://example.pasdc.org/certs/courses/ASCL3> .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://w3id.org/openbadges/v2#evidence> <urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268> .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://w3id.org/openbadges/v2#evidence> <urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <https://w3id.org/openbadges/v2#verification> _:c14n7 .
+<urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589> <schema:image> "https://example.pasdc.org/certs/1c0af19b8a390b6c1589.png" .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#TrainingEvidence> .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Evidence> .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <https://msde.gov.in/dgt/opencreds/v1#duration> _:c14n4 .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <https://msde.gov.in/dgt/opencreds/v1#session> "2018 Aug-Oct Batch #3" .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <https://msde.gov.in/dgt/opencreds/v1#trainer> <https://trainer.example.edu/about.json> .
+<urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3> <schema:name> "Training Course" .
+_:c14n0 <schema:targetCode> "ASC/N0001" .
+_:c14n0 <schema:targetDescription> " ... " .
+_:c14n0 <schema:targetFramework> "NOS" .
+_:c14n0 <schema:targetName> "Plan and organise work to meet expected outcomes" .
+_:c14n0 <schema:targetURL> "https://www.nqr.gov.in/ASC/N0001" .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#RsaSignature2018> .
+_:c14n1 <https://msde.gov.in/dgt/opencreds/v1#signatureValue> "DuMMy-LTQzNTVVmMm3ODM3QzNmtlYzIZD34GIyZGk=" .
+_:c14n1 <https://w3id.org/openbadges/v2#created> "2018-10-23T20:21:34Z" .
+_:c14n1 <https://w3id.org/openbadges/v2#creator> "https://example.assessor.org/keys/1" .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#AnnotatedExtension> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <schema:name> .
+_:c14n10 <https://msde.gov.in/dgt/opencreds/v1#annotation> "FATHER" .
+_:c14n10 <https://w3id.org/openbadges/v2#identity> "<Name of father>" .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#AnnotatedExtension> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <schema:name> .
+_:c14n11 <https://msde.gov.in/dgt/opencreds/v1#annotation> "FATHER" .
+_:c14n11 <https://w3id.org/openbadges/v2#identity> "<Name of father>" .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#AnnotatedExtension> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+_:c14n12 <https://msde.gov.in/dgt/opencreds/v1#annotation> "MASKED" .
+_:c14n12 <https://w3id.org/openbadges/v2#identity> "urn:in.gov.uidai.aadhaar:XXXX-XXXXXXXX-2437" .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#AnnotatedExtension> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+_:c14n13 <https://msde.gov.in/dgt/opencreds/v1#annotation> "MASKED" .
+_:c14n13 <https://w3id.org/openbadges/v2#identity> "urn:in.gov.uidai.aadhaar:XXXX-XXXXXXXX-2437" .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Criteria> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#grade> .
+_:c14n3 <https://msde.gov.in/dgt/opencreds/v1#maxValue> "A+" .
+_:c14n3 <https://msde.gov.in/dgt/opencreds/v1#value> "B+" .
+_:c14n3 <https://w3id.org/openbadges/v2#related> _:c14n8 .
+_:c14n4 <schema:endDate> "2018-10-22" .
+_:c14n4 <schema:startDate> "2018-07-25" .
+_:c14n5 <schema:targetCode> "ASC/N1401" .
+_:c14n5 <schema:targetDescription> " ... " .
+_:c14n5 <schema:targetFramework> "NOS" .
+_:c14n5 <schema:targetName> " Assist in vehicle service and maintenance" .
+_:c14n5 <schema:targetURL> "https://www.nqr.gov.in/ASC/N1401" .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#SignatoryExtension> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#Extension> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openbadges/v2#IdentityObject> .
+_:c14n6 <https://msde.gov.in/dgt/opencreds/v1#designation> "CEO, Automotive Skills Development Council" .
+_:c14n6 <https://w3id.org/openbadges/v2#identity> "urn:in.gov.ka-dot.dl:<KA DL #>" .
+_:c14n6 <schema:image> "https://example.asdc.org/p/ceo/sign-image.jpg" .
+_:c14n6 <schema:name> "<Name of signatory>" .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#LinkedDataSignature2015> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#equivalent> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://msde.gov.in/dgt/opencreds/v1#percentage> .
+_:c14n8 <https://msde.gov.in/dgt/opencreds/v1#value> "72" .
+_:c14n9 <schema:targetCode> "ASC/Q1401" .
+_:c14n9 <schema:targetDescription> " ... " .
+_:c14n9 <schema:targetFramework> "NSQF" .
+_:c14n9 <schema:targetName> "Automotive Service Technician - Level 3" .
+_:c14n9 <schema:targetURL> "https://www.nqr.gov.in/ASC/Q1401" .
+
