@@ -75,7 +75,7 @@
     "startDate": { "@id": "schema:startDate" },
     "subject": { "@id": "ocd:subject", "@type": "ocd:CompositeIdentity" },
     "tag": { "@id": "ocd:tag" },
-    "targetCode": { "@id": "schema:targetCode" },
+    "targetCode": { "@id": "obi:targetCode" },
     "targetDescription": { "@id": "schema:targetDescription" },
     "targetFramework": { "@id": "schema:targetFramework" },
     "targetName": { "@id": "schema:targetName" },
