@@ -1,0 +1,209 @@
+{
+  "@context": {
+    "ob": "https://w3id.org/openbadges/v2#",
+    "scd": "https://skillcredentialspec.org/v1/",
+    "sec": "https://w3id.org/security/v1#",
+    "schema": "http://schema.org/"
+  },
+  "@id": "urn:uuid:1c0af19b-df85-42f3-9441-8a390b6c1589",
+  "@type": [
+    "ob:Assertion",
+    "ob:Extension",
+    "scd:CertificateExtension"
+  ],
+  "schema:image": "https://example.pasdc.org/certs/1c0af19b8a390b6c1589.png",
+  "scd:printUri": {
+    "@type": "schema:url",
+    "@value": "data:image/jpeg;base64,<jpg-data>"
+  },
+  "scd:signatory": {
+    "@type": [
+      "ob:IdentityObject",
+      "@id",
+      "ob:Extension",
+      "scd:SignatoryExtension"
+    ],
+    "schema:image": "https://example.asdc.org/p/ceo/sign-image.jpg",
+    "schema:name": "<Name of signatory>",
+    "scd:designation": "CEO, Automotive Skills Development Council",
+    "ob:identity": "urn:in.gov.ka-dot.dl:<KA DL #>"
+  },
+  "ob:badge": {
+    "@id": "https://example.pasdc.org/certs/courses/ASCL3",
+    "@type": "ob:BadgeClass",
+    "schema:alignment": [
+      {
+        "schema:targetDescription": " ... ",
+        "schema:targetFramework": "NSQF",
+        "schema:targetName": "Automotive Service Technician - Level 3",
+        "schema:targetUrl": "https://www.nqr.gov.in/ASC/Q1401",
+        "ob:targetCode": "ASC/Q1401"
+      },
+      {
+        "schema:targetDescription": " ... ",
+        "schema:targetFramework": "NOS",
+        "schema:targetName": " Assist in vehicle service and maintenance",
+        "schema:targetUrl": "https://www.nqr.gov.in/ASC/N1401",
+        "ob:targetCode": "ASC/N1401"
+      },
+      {
+        "schema:targetDescription": " ... ",
+        "schema:targetFramework": "NOS",
+        "schema:targetName": "Plan and organise work to meet expected outcomes",
+        "schema:targetUrl": "https://www.nqr.gov.in/ASC/N0001",
+        "ob:targetCode": "ASC/N0001"
+      }
+    ],
+    "schema:description": " ... ",
+    "schema:image": "data:image/png;base64,<base64-encoded-png-data>",
+    "schema:name": "Automotive Service Technician Course",
+    "ob:criteria": {
+      "@type": "ob:Criteria",
+      "ob:narrative": "Successfully cleared assessment for role of Automotive Service Technician"
+    },
+    "ob:issuer": {
+      "@id": "https://example.pasdc.org/opencreds/profile.json",
+      "@type": "ob:Issuer",
+      "schema:image": "https://example.pasdc.org/images/logo.png",
+      "schema:name": "Partner & Associate Skills Development Corporation",
+      "sec:publicKey": {
+        "@id": "https://example.com/keys/exampleKey",
+        "@type": "ob:CryptographicKey",
+        "sec:owner": "https://example.pasdc.org/opencreds/profile.json",
+        "sec:publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAww1gxguBC9zwc9y7GoGi\ncV2U2FJ+6tD025hxTNxF15ZztAfkJyv+a8mI9KwYIk17SDU4SfJa3us7U5O5yMwj\nBcERCNWKq3AFqcCkzzA5ArIUL4TeSpepGjhb7ZYL2YO2VtTPSKo2TseTUOKzdXdw\nEDVe388cW/NWmJ6dmfhVwO48Utpi9cT3PFPoFfdeOK1tgfNmz1TXJ5v1QUqmADHf\nAXMUrptQ9fst8ncJszJgqbXh7reE0B+j5XyV3LIx7/4CGrMCsocTCeBstI6FwF8t\n1L3xkXb+KvYCAXHBJdbh3TMBETwLpc3lfHsOq4lE1DGkvtGJu/9rNH2BiWNPZf/c\nswIDAQAB\n-----END PUBLIC KEY-----\n"
+      }
+    }
+  },
+  "ob:evidence": [
+    {
+      "@id": "urn:uuid:f4e30fc7-fd1f-4afb-9d34-26b92e0078c3",
+      "@type": [
+        "ob:Evidence",
+        "ob:Extension",
+        "scd:TrainingEvidence"
+      ],
+      "schema:name": "Training Course",
+      "scd:duration": {
+        "schema:endDate": "2018-10-22",
+        "schema:startDate": "2018-07-25"
+      },
+      "scd:session": "2018 Aug-Oct Batch #3",
+      "scd:subject": {
+        "@id": "#/evidence/0/subject",
+        "@type": "scd:CompositeIdentity",
+        "schema:name": "<Name of recipient>",
+        "scd:components": [
+          {
+            "@type": [
+              "schema:name",
+              "ob:Extension",
+              "scd:AnnotatedExtension"
+            ],
+            "scd:annotation": "FATHER",
+            "ob:identity": "<Name of father>"
+          },
+          {
+            "@type": [
+              "@id",
+              "ob:Extension",
+              "scd:AnnotatedExtension"
+            ],
+            "scd:annotation": "MASKED",
+            "ob:identity": "urn:in.gov.uidai.aadhaar:XXXX-XXXXXXXX-2437"
+          }
+        ]
+      },
+      "scd:trainer": {
+        "@id": "https://trainer.example.edu/about.json",
+        "@type": "ob:Profile",
+        "schema:image": "https://trainer.example.edu/logo.jpg",
+        "schema:name": "Partner Training Institute"
+      }
+    },
+    {
+      "@id": "urn:uuid:02644c88-d2b7-41ef-a78c-6adf7fbdb268",
+      "@type": [
+        "ob:Evidence",
+        "ob:Extension",
+        "scd:AssessedEvidence"
+      ],
+      "schema:name": "Course Grade",
+      "scd:assessedBy": {
+        "@id": "https://example.assessor.org/profile.json",
+        "@type": [
+          "ob:Profile",
+          "ob:Extension",
+          "scd:SignatoryExtension"
+        ],
+        "schema:image": "https://example.assessor.org/cert-logo.png",
+        "schema:name": "Acme Automotive Assessments Institute",
+        "sec:publicKey": {
+          "@id": "https://example.assessor.org/keys/1",
+          "@type": "ob:CryptographicKey",
+          "sec:owner": "https://example.assessor.org/profile.json",
+          "sec:publicKeyPem": "-----BEGIN PUBLIC KEY-----\n... ... ... ... ...\n-----END PUBLIC KEY-----\n"
+        }
+      },
+      "scd:assessedOn": {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2018-10-19T6:30:00Z"
+      },
+      "scd:assessment": {
+        "@type": "scd:GradeAssessment",
+        "scd:maxValue": "A+",
+        "scd:value": "B+",
+        "ob:related": {
+          "@type": [
+            "scd:equivalent",
+            "scd:PercentageAssessment"
+          ],
+          "scd:value": "72"
+        }
+      },
+      "scd:subject": {
+        "@id": "#/evidence/1/subject",
+        "@type": "scd:CompositeIdentity",
+        "schema:name": "<Name of recipient>",
+        "scd:components": [
+          {
+            "@type": [
+              "schema:name",
+              "ob:Extension",
+              "scd:AnnotatedExtension"
+            ],
+            "scd:annotation": "FATHER",
+            "ob:identity": "<Name of father>"
+          },
+          {
+            "@type": [
+              "@id",
+              "ob:Extension",
+              "scd:AnnotatedExtension"
+            ],
+            "scd:annotation": "MASKED",
+            "ob:identity": "urn:in.gov.uidai.aadhaar:XXXX-XXXXXXXX-2437"
+          }
+        ]
+      },
+      "sec:signature": {
+        "@type": "https://w3id.org/identity/v1#RsaSignature2018",
+        "sec:created": "2018-10-23T20:21:34Z",
+        "sec:creator": "https://example.assessor.org/keys/1",
+        "sec:signatureValue": "DuMMy-LTQzNTVVmMm3ODM3QzNmtlYzIZD34GIyZGk="
+      }
+    }
+  ],
+  "ob:issuedOn": "2018-10-29T10:21:43.087UTC",
+  "ob:recipient": {
+    "@id": "#/evidence/0/subject"
+  },
+  "ob:verification": {
+    "@type": "sec:LinkedDataSignature2015"
+  },
+  "sec:signature": {
+    "@type": "RsaSignature2018",
+    "sec:creator": "https://example.com/keys/exampleKey",
+    "sec:created": "Mon, 18 Feb 2019 14:51:07 GMT",
+    "sec:signatureValue": "kAfS461z1SBN1DS2M+Vff2WxgPyAIjO0ehv/s3BLAK+fbGAKj5B1UAhNcZUw8QF+TQgKHF0WxfBXLslBTDjxZr6fbvtd0+CXpLslSIVDddLNwKyvZ0vZ7S8Kp3WROgK2+K8+gIVl3aqh0Xz4xkZz4peHY65SZUvEfY1GCHT+eQ9mzLsKXwVtZOoKFPnyk+x+EAFquNSx9J7+m2gB948Cpz+lwOXwlFbTpRzNSBnyRsfo8QN9aQLZS9WiFUyFOnUir7YVp+GX1JlpB3YwME/7NpFSeZicahVl9S1oN1VrRaNQmwKbjV2g1HZ2GfDn76dKUbfxMBpPIVhh0++QYKnFoQ=="
+  }
+}
