@@ -2,7 +2,7 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-    "ocd": "https://skillcredentialspec.org/v1/",
+    "scd": "https://skillcredentialspec.org/v1#",
     "ob": "https://w3id.org/openbadges/v2#",
     "schema": "http://schema.org/",
     "sec": "https://w3id.org/security/v1#",
