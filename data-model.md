@@ -52,68 +52,6 @@ This format can be used to construct new informal namespaces for NIDs.
 Non-unique namespaces cannot be used as NIDs for URNs but may be utilised as the **`@type`** property for a 
 component of a composite identity represented by an **`IdentityObject`**.
 
-<table>
-  <tr>
-    <td><strong>Identifier Type</strong></td>
-    <td><strong>Namespace</strong></td>
-    <td><strong>Example</strong></td>
-  </tr>
-  <tr>
-    <td>PAN</td>
-    <td><code>in.gov.itd.pan</code></td>
-    <td><code>urn:in.gov.itd.pan:ZZZZZ00000</code></td>
-  </tr>
-  <tr>
-    <td>GSTN</td>
-    <td><code>in.gov.gstn.gstn</code></td>
-    <td><code>urn:in.gov.gstn.gstn:Z00000000000001</code></td>
-  </tr>
-  <tr>
-    <td>Driver License (KA)</td>
-    <td><code>in.gov.ka-dot.dl</code></td>
-    <td><code>urn:in.gov.ka-dot.dl:ZAAAAAAAAAAAAB</code></td>
-  </tr>
-  <tr>
-    <td>Driver License (MH)</td>
-    <td><code>in.gov.mh-dot.dl</code></td>
-    <td><code>urn:in.gov.mh-dot.dl:ZOOOOOOOOOOOAB</code></td>
-  </tr>
-  <tr>
-    <td>Aadhaar</td>
-    <td><code>in.gov.uidai.aadhaar</code></td>
-    <td><code>urn:in.gov.uidai.aadhaar:11111111111</code></td>
-  </tr>
-  <tr>
-    <td>Voter Identity</td>
-    <td><code>in.gov.eci.voterid</code></td>
-    <td><code>urn:in.gov.eci.voterid:X11111111X</code></td>
-  </tr>
-  <tr>
-    <td>Passport</td>
-    <td><code>in.gov.mea.psprt</code></td>
-    <td><code>urn:in.gov.mea.psprt:XX99999999</code></td>
-  </tr>
-  <tr>
-    <td>Roll Number</td>
-    <td><code>in.<dom>.<iss>.rollno</code></td>
-    <td><code>urn:in.gov.msde-dgt.rollno:999999999</code></td>
-  </tr>
-  <tr>
-    <td>Name</td>
-    <td><code>name</code></td>
-    <td><code>Ram Singh</code></td>
-  </tr>
-  <tr>
-    <td>Date of Birth</td>
-    <td><code>dob</code></td>
-    <td><code>Date of birth in YYYY-MM-DD format</code></td>
-  </tr>
-  <tr>
-    <td>Photo</td>
-    <td><code>photo</code></td>
-    <td><code>data:image/png;base64,{base64_encoded_data}</code></td>
-  </tr>
-</table>
 
 **Table 1**:  Informal namespaces for commonly used identifiers
 
