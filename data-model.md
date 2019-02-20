@@ -59,6 +59,7 @@ component of a composite identity represented by an **`IdentityObject`**.
     <td><strong>Example</strong></td>
   </tr>
 </table>
+
 **Table 1**:  Informal namespaces for commonly used identifiers
 
 
