@@ -94,6 +94,11 @@ component of a composite identity represented by an **`IdentityObject`**.
     <td><code>urn:in.gov.mea.psprt:XX99999999</code></td>
   </tr>
   <tr>
+    <td>Roll Number</td>
+    <td><code>in.{dom}.{iss}.rollno</code></td>
+    <td><code>urn:in.gov.msde-dgt.rollno:999999999</code></td>
+  </tr>
+  <tr>
     <td>Name</td>
     <td><code>name</code></td>
     <td><code>Ram Singh</code></td>
