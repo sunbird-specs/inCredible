@@ -52,6 +52,11 @@ This format can be used to construct new informal namespaces for NIDs.
 Non-unique namespaces cannot be used as NIDs for URNs but may be utilised as the **`@type`** property for a 
 component of a composite identity represented by an **`IdentityObject`**.
 
+<table>
+   <tr>
+   </tr>
+</table>
+
 
 **Table 1**:  Informal namespaces for commonly used identifiers
 
