@@ -58,6 +58,36 @@ component of a composite identity represented by an **`IdentityObject`**.
     <td><strong>Namespace</strong></td>
     <td><strong>Example</strong></td>
   </tr>
+  <tr>
+    <td>PAN</td>
+    <td><code>in.gov.itd.pan</code></td>
+    <td><code>urn:in.gov.itd.pan:ZZZZZ00000</code></td>
+  </tr>
+  <tr>
+    <td>GSTN</td>
+    <td><code>in.gov.gstn.gstn</code></td>
+    <td><code>urn:in.gov.gstn.gstn:Z00000000000001</code></td>
+  </tr>
+  <tr>
+    <td>Driver License (KA)</td>
+    <td><code>in.gov.ka-dot.dl</code></td>
+    <td><code>urn:in.gov.ka-dot.dl:ZAAAAAAAAAAAAB</code></td>
+  </tr>
+  <tr>
+    <td>Driver License (MH)</td>
+    <td><code>in.gov.mh-dot.dl</code></td>
+    <td><code>urn:in.gov.mh-dot.dl:ZOOOOOOOOOOOAB</code></td>
+  </tr>
+  <tr>
+    <td>Aadhaar</td>
+    <td><code>in.gov.uidai.aadhaar</code></td>
+    <td><code>urn:in.gov.uidai.aadhaar:11111111111</code></td>
+  </tr>
+  <tr>
+    <td>Voter Identity</td>
+    <td><code>in.gov.eci.voterid</code></td>
+    <td><code>urn:in.gov.eci.voterid:X11111111X</code></td>
+  </tr>
 </table>
 
 **Table 1**:  Informal namespaces for commonly used identifiers
