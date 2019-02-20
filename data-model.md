@@ -110,7 +110,7 @@ component of a composite identity represented by an **`IdentityObject`**.
   </tr>
   <tr>
    <td>Photo</td>
-   <td><code>photo`</td>
+   <td><code>photo</code></td>
    <td><code>data:image/png;base64,{base64_encoded_data}</code></td>
   </tr>
 </table>
