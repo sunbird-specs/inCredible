@@ -4,7 +4,7 @@
 
 1. **[Object model](object-model)**: Useful reference for understanding details of properties contained within a credential
 1. **[Data model](data-model)**: Some helpful notes on modeling credentials data and creating strong identifiers for entities involved in issuing skill credentials.
-1. **[Signing & Verification guide]**: Collection of details connected with signing and verification of credential objects
+1. **[Signing & Verification guide](signing-verification)**: Collection of details connected with signing and verification of credential objects
 
 ## Utilities 
 Cross-language signing and verification libraries are available in Python and JavaScript.
