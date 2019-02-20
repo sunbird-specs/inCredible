@@ -45,7 +45,7 @@ The format used for NIDs is **`in.<domain>.<id-creator>.<id-type>`**, where doma
 This format can be used to construct new informal namespaces for NIDs.
 
 Non-unique namespaces cannot be used as NIDs for URNs but may be utilised as the **`@type`** property for a 
-component of a composite identity represented by an **`IdentityObject.`**
+component of a composite identity represented by an **`IdentityObject`**.
 
 <table>
   <tr>
@@ -142,7 +142,7 @@ appropriate RDF schemas. The profile may also contain links to other tools where
 
 Second, as the recipient of credentials, institutions should also be identified using a URL which points to the institution's profile. 
 The profile data may contain embedded objects detailing publicly available and well-known identifier types such as a GST number or a 
-permanent account number (PAN). The would be represented using the RDF **<code>sameAs</code></strong>[^3] property whose value is an 
+permanent account number (PAN). The would be represented using the RDF **`sameAs`**^3] property whose value is an 
 **`IdentityObject`**. When using such identifiers the identity can be represented as a URN.
 
 
