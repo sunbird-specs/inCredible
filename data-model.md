@@ -1,7 +1,7 @@
 ## Data Model
 
 ## Contents
-{:.no-toc}
+{:.no_toc}
 * Contents
 {:toc}
 
