@@ -53,11 +53,12 @@ Non-unique namespaces cannot be used as NIDs for URNs but may be utilised as the
 component of a composite identity represented by an **`IdentityObject`**.
 
 <table>
-   <tr>
-   </tr>
+  <tr>
+    <td><strong>Identifier Type</strong></td>
+    <td><strong>Namespace</strong></td>
+    <td><strong>Example</strong></td>
+  </tr>
 </table>
-
-
 **Table 1**:  Informal namespaces for commonly used identifiers
 
 
