@@ -1,5 +1,10 @@
 ## Data Model
 
+## Contents
+{:.no-toc}
+* Contents
+{:toc}
+
 ### Open Standards
 
 The credentials data model uses the following standards for defining a credential:
