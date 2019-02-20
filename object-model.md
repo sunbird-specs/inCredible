@@ -47,10 +47,10 @@ The `Assertion` type from OpenBadges is extended by the `CertificateExtension` w
 *   `Signature` added by the awarding body using its private key for signed verification
 
 
-### CompositeIdentity Object
+### CompositeIdentity
 
 OpenBadges v2 uses IdentityObjects to represent the recipient of a certificate. We extend it to represent a composite identity 
-which is composed of a sub `IdentityObject`. 
+which is composed of a sub `IdentityObject`(s). 
 
 To facilitate composite identities, the specification introduces: 
 
@@ -118,7 +118,7 @@ the credential is signed.
 *   optional `RevocationList` containing a HTTP URL of the list of signed badges awarded by this body which have been revoked
 
 
-### Alignment Object
+### AlignmentObject
 
 The OpenBadges v2 `AlignmentObject` is used to link a `BadgeClass` or an item of `Evidence` to an academic standard.
 
@@ -196,7 +196,7 @@ To illustrate, a _schema for a marks-based assessment_ which adds additional pro
 *   `PassValue` The passing score for the assessment
 
 
-### Signatory Extension
+### SignatoryExtension
 
 `SignatoryExtension` extends the OpenBadges v2 `IdentityObject` to add the following properties.
 
