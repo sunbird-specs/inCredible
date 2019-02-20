@@ -111,7 +111,7 @@ component of a composite identity represented by an **`IdentityObject`**.
   <tr>
    <td>Photo</td>
    <td><code>photo`</td>
-   <td><code>data:image/png;base64,<base64 encoded></code></td>
+   <td><code>data:image/png;base64,{base64_encoded_data}</code></td>
   </tr>
 </table>
 
