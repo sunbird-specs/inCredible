@@ -7,8 +7,8 @@ You may be interested in reading the latest [specification](/v1/spec.pdf) or the
 
 ### References
 
-**Object model**: you may find details of the specification's [object model](object-model) a useful reference
-**Data model**: here are some details on modeling data and creating strong identifiers for entities involved in issuing skill credentials.
+1. **Object model**: you may find details of the specification's [object model](object-model) a useful reference
+1. **Data model**: here are some helpful notes on [modeling credentials data](data-model) and creating strong identifiers for entities involved in issuing skill credentials.
 
 ### Utilities 
 Cross-language signing and verification libraries are available in Python and JavaScript.
@@ -38,6 +38,6 @@ var sc = require('skillcreds');
 
 var keyId = 'https://example.com/keys/exampleKey';
 var privateKey = loadKeyPair(keyFile);
-signature = sc.signatures.LinkedDataSignature(sc.suites.RsaSignature2018());
-signedCredential = signature.sign(credential, privateKey, keyId);
+var signature = sc.signatures.LinkedDataSignature(sc.suites.RsaSignature2018());
+var signedCredential = signature.sign(credential, privateKey, keyId);
 ```
