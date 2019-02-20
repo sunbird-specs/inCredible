@@ -3,6 +3,7 @@
 Objects and the properties as defined by this credentials specification are detailed here.
 
 ### Contents
+{:.no_toc}
 * Seed list
 {:toc}
 
