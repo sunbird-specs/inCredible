@@ -41,7 +41,7 @@ in the certificate below).
 #### Identifier Namespaces
 
 Below, we propose some informal namespaces for commonly used identifiers types. These namespaces can be used as the NID for URNs. 
-The format used for NIDs is **<code>in.<domain>.<id-creator>.<id-type></code></strong>, where domains are .gov, .edu, .com & .org. 
+The format used for NIDs is **`in.<domain>.<id-creator>.<id-type>`**, where domains are .gov, .edu, .com & .org. 
 This format can be used to construct new informal namespaces for NIDs.
 
 Non-unique namespaces cannot be used as NIDs for URNs but may be utilised as the **`@type`** property for a 
