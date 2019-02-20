@@ -1,4 +1,4 @@
-# Electronic Skill Credential Specification 
+## Electronic Skill Credential Specification 
 
 ## Documentation
 
