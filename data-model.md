@@ -106,7 +106,7 @@ component of a composite identity represented by an **`IdentityObject`**.
   <tr>
    <td>Date of Birth</td>
    <td><code>dob</code></td>
-   <td><code>Date of birth in YYYY-MM-DD format`</code></td>
+   <td><code>Date of birth in YYYY-MM-DD format</code></td>
   </tr>
   <tr>
    <td>Photo</td>
