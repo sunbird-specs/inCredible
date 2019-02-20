@@ -2,7 +2,8 @@
 
 Objects and the properties as defined by this credentials specification are detailed here.
 
-## Contents
+### Contents
+* Seed list
 {:toc}
 
 ### Credential
