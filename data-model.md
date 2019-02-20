@@ -88,6 +88,16 @@ component of a composite identity represented by an **`IdentityObject`**.
     <td><code>in.gov.eci.voterid</code></td>
     <td><code>urn:in.gov.eci.voterid:X11111111X</code></td>
   </tr>
+  <tr>
+    <td>Passport</td>
+    <td><code>in.gov.mea.psprt</code></td>
+    <td><code>urn:in.gov.mea.psprt:XX99999999</code></td>
+  </tr>
+  <tr>
+    <td>Roll Number</td>
+    <td><code>in.<dom>.<iss>.rollno</code></td>
+    <td><code>urn:in.gov.msde-dgt.rollno:999999999</code></td>
+  </tr>
 </table>
 
 **Table 1**:  Informal namespaces for commonly used identifiers
