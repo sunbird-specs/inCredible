@@ -11,7 +11,7 @@
 Cross-language signing and verification libraries are available in Python and JavaScript.
 
 ### Python
-There is an implementation of credential signing and verification available in [skillcreds-py](https://github.com/bharatskills/skillcreds-py)
+There is an implementation of credential signing and verification available in [skillcreds-py](https://github.com/project-sunbird/inCredible-py)
 
 Using this library, one can sign a credential in a short snippet of code:
 
@@ -26,7 +26,7 @@ signed_credential = signature.sign(credential, private_key, key_id)
 ```  
 
 ### JavaScript
-There is an implementation of credential signing and verification available in [skillcredjs](https://github.com/bharatskills/skillcredsjs)
+There is an implementation of credential signing and verification available in [skillcredjs](https://github.com/project-sunbird/inCredible-js)
 
 Using this library, one can sign a credential using the following snippet:
 
