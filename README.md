@@ -41,7 +41,7 @@ var signedCredential = signature.sign(credential, privateKey, keyId);
 
 ## Specification documents
 
-You may be interested in reading the latest [specification](/v1/spec.pdf) or the accompanying [implementation guide](/v1/implementation_guide.pdf)
+You may be interested in reading the latest [specification](/v1/spec.md) or the accompanying [implementation guide](/v1/implementation_guide.pdf)
 
 ## FAQ
 
