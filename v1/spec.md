@@ -6,6 +6,7 @@
 
 March 2019
 
+**Table of Contents**
 * [Introduction](#introduction)
       * [Principles](#principles)
    * [Proposed Specifications](#proposed-specifications)
