@@ -3,8 +3,8 @@
 ## Documentation
 
 1. **[Skill credential vocabulary](v1/context.json)**: JSON-LD context document describing the vocabulary used for credential documents.
-1. **[Object model](object-model)**: Useful reference for understanding details of properties contained within a credential
-1. **[Data model](data-model)**: Some helpful notes on modeling credentials data and creating strong identifiers for entities involved in issuing skill credentials.
+1. **[Object model](/object-model.md)**: Useful reference for understanding details of properties contained within a credential
+1. **[Data model](/data-model.md)**: Some helpful notes on modeling credentials data and creating strong identifiers for entities involved in issuing skill credentials.
 1. **[Signing & Verification guide](signing-verification)**: Collection of details connected with signing and verification of credential objects
 
 ## Utilities 
