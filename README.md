@@ -3,8 +3,8 @@
 ## Documentation
 
 1. **[Skill credential vocabulary](v1/context.json)**: JSON-LD context document describing the vocabulary used for credential documents.
-1. **[Object model](/object-model.md)**: Useful reference for understanding details of properties contained within a credential
-1. **[Data model](/data-model.md)**: Some helpful notes on modeling credentials data and creating strong identifiers for entities involved in issuing skill credentials.
+1. **[Object model](v1/spec.md#object-model)**: Useful reference for understanding details of properties contained within a credential
+1. **[Data model](v1/spec.md#data-model)**: Some helpful notes on modeling credentials data and creating strong identifiers for entities involved in issuing skill credentials.
 1. **[Signing & Verification guide](signing-verification)**: Collection of details connected with signing and verification of credential objects
 
 ## Utilities 
@@ -41,7 +41,7 @@ var signedCredential = signature.sign(credential, privateKey, keyId);
 
 ## Specification documents
 
-You may be interested in reading the latest [specification](/v1/spec.pdf) or the accompanying [implementation guide](/v1/implementation_guide.pdf)
+You may be interested in reading the latest [specification](/v1/spec.md) or the accompanying [implementation guide](/v1/implementation_guide.pdf)
 
 ## FAQ
 
