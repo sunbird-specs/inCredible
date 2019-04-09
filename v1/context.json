@@ -24,7 +24,6 @@
     "Duration": "scd:Duration",
     "Evidence": "ob:Evidence",
     "Extension": "ob:Extension",
-    "IdentityComponent": "scd:IdentityComponent",
     "IdentityObject": "ob:IdentityObject",
     "LinkedDataSignature2015": "sec:LinkedDataSignature2015",
     "Profile": "ob:Profile",
