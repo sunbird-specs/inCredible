@@ -2,7 +2,9 @@
 
 [https://github.com/sunbird-specs/inCredible](https://github.com/sunbird-specs/inCredible)
 
-**Technical Specification - Version 1.0**
+## Electronic Credential Specification for Academic and Skilling Domain
+### Technical Specification - Version 1.0
+
 
 April 2019
 
