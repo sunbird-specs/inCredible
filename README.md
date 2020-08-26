@@ -1,4 +1,4 @@
-## Electronic Credential Specification for Academic and Skilling Domain
+## Electronic Credential Specification for Academic and Skilling Domains
 
 ## Documentation
 
@@ -7,7 +7,13 @@
 1. **[Data model](v1/spec.md#data-model)**: Some helpful notes on modeling credentials data and creating strong identifiers for entities involved in issuing skill credentials.
 1. **[Signing](v1/spec.md#appendix-1-signing-procedure-for-assertions-and-evidence) and [Verification guide](v1/spec.md#appendix-3-verifying-authenticity-of-a-certificate)**: Collection of details connected with signing and verification of credential objects
 
-## Utilities 
+
+## Specification documents
+
+Read the latest specification [here](/v1/spec.md)
+
+
+## Sample code utilities 
 Cross-language signing and verification libraries are available in Python and JavaScript.
 
 ### Python
@@ -38,8 +44,4 @@ var privateKey = loadKeyPair(keyFile);
 var signature = sc.signatures.LinkedDataSignature(sc.suites.RsaSignature2018());
 var signedCredential = signature.sign(credential, privateKey, keyId);
 ```
-
-## Specification documents
-
-Read the latest specification [here](/v1/spec.md)
 
