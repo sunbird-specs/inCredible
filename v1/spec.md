@@ -48,13 +48,13 @@ April 2019
 
 # Introduction
 
-The jobs and skilling ecosystem is a complex arena with a number of frictions preventing an optimal supply and demand equilibrium, resulting in not only underemployment but also significant wage gaps. These frictions include low trust, information asymmetry, low ability to compare, and portability amongst others.
+The academic and skilling ecosystem is a complex arena with a number of frictions preventing an optimal supply and demand equilibrium, resulting in the inability to access learning and job opportunities. These frictions include low trust, information asymmetry, low ability to compare, costly verification procedures, and portability amongst many others. A core issue in academic ecosystem is the diificulty of students/teachers to easily apply and get their certificated verified in a electronic paperless manner. Similarly, in the jobs and skills arena, individuals face great difficulties in showcasing their skills and exchanging credentials in a trusted manner. 
 
-A core issue in the jobs and skills arena is the difficulty an individual faces in showcasing their skills and exchanging credentials in a trusted manner. This document proposes a set of electronic standards for machine-readable data to represent various credentials in the skilling ecosystem across industry verticals. An electronic standard for data representing credentials allows certificates to be awarded in a digital, machine-readable format. The standard enables an individual to easily transfer credentials in a trusted manner anywhere and thereby open up possibilities for applying to remote jobs.
+This document proposes an electronic, machie readable specification to represent various credentials/certificates in both academic and skilling ecosystem across the ecosystem. An electronic standard for data representing credentials allows certificates to be awarded in a digital, machine-readable format. The standard enables an individual to easily transfer credentials in a trusted manner anywhere and thereby open up possibilities for applying to remote jobs.
 
-Currently, skills certificates are paper-based and are not digitally verifiable. In contrast, digital credentials are freely portable and easily verifiable at scale and speed by employers and job matching platforms, whilst continuing to allow print and other visual forms for human consumption.
+Currently, except few implementations, most academic and skill certificates are paper-based and are not digitally verifiable. In contrast, digital credentials are freely portable and easily verifiable at scale and speed by employers and job matching platforms, whilst continuing to allow print and other visual forms for human consumption.
 
-This document is an open specification which can be incorporated into the information management systems of skill training providers, apprenticeships, employers, testing agencies, or others in the ecosystem. 
+This document is an open specification, an extension based on OpenBadges V2, which can be incorporated into the certificate issuance systems of various academic instributions, skill training providers, apprenticeships, employers, testing agencies, or others in the ecosystem. 
 
 ## Terminology
 1. _credential _and _credentials_ are used to mean a _qualification or achievement of a person or entity used to indicate their suitability for something_. A certificate or other form of attestation is typically issued to award and recognize such a qualification.
@@ -176,7 +176,7 @@ The recipient of the certificate may be an individual or an organisation. The re
 
 ### BadgeClass
 
-The <strong><code>BadgeClass</code></strong> describes a category of credentials that is awarded. The badge class contains details of the awarding body of the credential, the skill domain & standard achieved. For instance, one category of of credentials may be a School Leaving Certificate awarded by a school board, another could be a Bachelor's Degree certificate awarded by a University.
+The <strong><code>BadgeClass</code></strong> describes a category of credentials that is awarded. The badge class contains details of the awarding body of the credential, the academic/skill domain & standard achieved. For instance, one category of of credentials may be a School Leaving Certificate awarded by a school board, another could be a Bachelor's Degree certificate awarded by a University.
 
 
 ### AwardingBody
@@ -186,7 +186,7 @@ The awarding body of the credential will be an organisation or institution which
 
 ### Competency Standard
 
-Standard is a skill definition or a competency defined by a certified standards body for the domain. Any given standard must be uniquely identifiable and will also commonly be part of a framework which defines relationships between standards in a domain. <strong><code>BadgeClass</code></strong> descriptions link to defined standards via <strong><code>AlignmentObjects</code></strong>.
+Standard is a academic/skill definition or a competency defined by a certified standards body for the domain. Any given standard must be uniquely identifiable and will also commonly be part of a framework which defines relationships between standards in a domain. <strong><code>BadgeClass</code></strong> descriptions link to defined standards via <strong><code>AlignmentObjects</code></strong>.
 
 
 ### Evidence
@@ -196,7 +196,7 @@ The credential may contain one more list items of evidence which have been asses
 
 ### Assessor
 
-The assessor evaluates a trainee's competencies. The assessor is an organisation or institution which has been certified as a competent authority to assess skills for a given domain standard(s).
+The assessor evaluates a trainee's competencies. The assessor is an organisation or institution which has been certified as a competent authority to assess the capability/skill for a given domain standard(s).
 
 
 ## Data Model
@@ -359,14 +359,14 @@ The namespace specific string (nss) is the value of the ID within the nid. Conti
 Together, the combination of <strong><code>urn:isbn:8120351312</code></strong> forms a URN which uniquely identifies a book.
 
 
-#### **Institution Ids**
+#### **Institution IDs**
 
 Institutions are identified in two scenarios. The first of these is an institution is an awarding body of credentials or is an assessor of a subject (recipient). In this scenario, the institution should be identified using a URL which points to the institution's profile (in JSON-LD format). The profile must contain the awarding body/assessor properties defined in the model below. Additionally, the profile may also contain more information about the institution (e.g. rankings, institutional standards, authorisations etc) using the appropriate RDF schemas. The profile may also contain links to other tools where such information about the institution can be retrieved.
 
 Second, as the recipient of credentials, institutions should also be identified using a URL which points to the institution's profile. The profile data may contain embedded objects detailing publicly available and well-known identifier types. The would be represented using the RDF <strong><code>sameAs</code></strong> property whose value is an <strong><code>IdentityObject</code></strong>. When using such identifiers the identity can be represented as a URN.
 
 
-#### **Individual Ids**
+#### **Individual IDs**
 
 Individuals are identified in two scenarios. First as recipients of credentials and second, as signatories to a credential. In both scenarios, the individuals should be identified by an <strong><code>IdentityObject </code></strong>which contains one or more identifying attributes. If the individual can be identified by a HTTP URL, the <strong><code>IdentityObject</code></strong> should be of <strong><code>@type: "url"</code></strong>. In case of an identity which is comprised of multiple parts, an <strong><code>IdentityObject</code></strong> of <strong><code>@type: "composite"</code></strong> should be used containing components which are in turn <strong><code>IdentityObjects</code></strong> of a variety of types.
 
